@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        sh ''' #!/bin/bash
-echo "HI you are through"'''
+        sh ''' 
+           echo "HI you are through"'''
       }
     }
 
